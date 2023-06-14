@@ -1,0 +1,166 @@
+
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+.large{
+    font-size: 40px;
+}
+
+.donate_btn{
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+.dummy_btn{
+    font-size: 24px;
+    padding: 30px 758px;
+    border-radius: 8px;
+}
+
+.bg1-div{
+    background:#4c2727;
+    overflow: hidden;
+    height: 50px;
+    width : 1505px;
+    border-radius: 15%;
+ }
+
+.center_align{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.hero_text{
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.sub_hero_text{
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(red,yellow);
+}
+
+.heading{
+    font-size: 35px;
+}
+
+.sub_heading{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_4{
+    width: 30%;
+    border-color: #aaa;
+    border-width: 5px;
+    background-color: #0f929e;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.btn_4:hover {
+    background-color: rgb(159, 209, 236);
+    color: rgb(244, 236, 236);
+  }
+
+.btn_6{
+    width: 50%;
+    border-color: #139d4e;
+    border-width: 5px;
+    background-color: aquamarine;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.btn_7{
+    width: 40%;
+    border-color: #aaa;
+    border-width: 5px;
+    background-color: rgb(73, 61, 232);
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+s1{
+    color: #ffffff;
+    font-size: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.btn_8{
+    width: 100px;
+    height: 100px;
+    border-color: #139d4e;
+    border-width: 5px;
+    background-color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 12px;
+}
+  

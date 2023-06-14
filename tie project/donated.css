@@ -1,0 +1,99 @@
+
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+.large{
+    font-size: 40px;
+}
+
+.donate_btn{
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+.container {
+    display: grid;
+    align-items:center; 
+    grid-template-columns: 1fr 15fr 25fr;
+    width: 600px;
+    text-align: center;
+   }
+
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding:0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+@supports (display: grid)
+{
+    .l-grid {
+    background: #6B949F;
+       color: white;
+       display: grid;
+       grid-template-columns: 35% 30% 35%;
+       /*transform: rotate(-45deg);*/
+      }
+     .header, .footer, .left-column, .center-column, .right-column {
+       margin: 5px;
+       padding: 30px;
+       text-align: center;
+     }
+     .header, .footer {
+       background: #265B6A;
+       grid-column-start: 1;
+       grid-column-end: end;
+     }
+     .left-column {
+       background: #452F74;
+     }
+     .center-column {
+       background: #AA7239;
+     }
+     .right-column {
+       background: #729C34;
+     }
+     
+  }
+  
+body{
+    background: linear-gradient(110deg, #00ffa2 60%, #00ffeecc 60%);
+}  

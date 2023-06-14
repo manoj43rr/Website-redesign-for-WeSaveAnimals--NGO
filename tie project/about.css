@@ -1,0 +1,127 @@
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+.large{
+    font-size: 40px;
+}
+
+.donate_btn{
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+.bg-div1{
+    background:#1aff00;
+    overflow: hidden;
+    height: 500px;
+    width : 100%;
+    border-radius: 12px;
+ }
+
+.img1{
+    height :400px;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    float: left;
+    margin: 10px 20px 15px 20px;
+
+}
+
+.trying{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.h5{
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 20px 15px 20px;
+}
+
+.h51{
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 500px 15px 500px;
+}
+
+.bg-div2{
+    background:#1aff00;
+    overflow: hidden;
+    height: 140px;
+    width : 100%;
+    border-radius: 12px;
+    text-align: justify;
+ }
+
+.try2{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body{
+    background: linear-gradient(110deg, #9500ffc0 60%, #cc00ff 60%);
+}
+
+.bg-div3{
+    background:#1aff00;
+    overflow: hidden;
+    height: 200px;
+    width : 100%;
+    border-radius: 12px;
+    text-align: justify;
+ }
+
+.trying2{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.trying3{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+}
+
+.btn{
+    color: white;
+    background-color: green;
+    size: 25px;
+    border-radius: 12px;
+}

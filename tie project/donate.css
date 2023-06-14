@@ -1,0 +1,144 @@
+body{
+    background-color: lavender;
+}
+
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+
+.large{
+    font-size: 40px;
+}
+
+.donate_btn{
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 300px;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+.btn_1{
+    font-size: 18px;
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    box-shadow: #333;
+    box-sizing: border-box;
+}
+
+.h1{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.dummy{
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.dummy1{
+    color: rgb(220, 208, 208);    
+}
+
+.dummy2{
+    background-color: red;
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+.dummy3{
+    width:90%;
+    border-radius: 60px;
+    background-color:rgb(85, 104, 226);
+    color: cyan;
+
+}
+
+.GFG1 {
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+        }
+
+.GFG {
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px -1px 0 #ffffff;
+}
+
+body{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
